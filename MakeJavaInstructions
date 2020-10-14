@@ -1,0 +1,6 @@
+0How to run java program with terminal
+
+javac -sourcepath [path of file] -d [outputDirectory] [.java file]
+
+java -cp [path of .class file which was compiled] [.class file] [args]
+

@@ -1,0 +1,14 @@
+--- ECS 140A Project 1 ---
+By: Gabriel Vazquez
+
+Included:
+    ./makefile
+    ./README.txt
+    ./src
+        /CSVParser.java
+        /PeekableCharacterStream.java
+        /PeekableCharacterFileStream.java
+        /Scanner.java
+        /Token.java
+
+--- NOTES ---

@@ -1,5 +1,5 @@
 .DS_Store
-./Project1/cprog.txt
-./Project1/test.txt
+*.iml
+class/
+./Project1/*.txt
 ./Project1/format.csv
-./Project1/class

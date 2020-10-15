@@ -1,6 +1,4 @@
 .DS_Store
 **/.idea/
-*.iml
-class/
-./Project1/*.txt
-./Project1/format.csv
+**/*.iml
+**/class/

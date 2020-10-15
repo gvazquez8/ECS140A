@@ -1,6 +1,4 @@
 .DS_Store
-**/README
-**/README.md
 **/*.tgz
 **/.idea/
 **/*.iml

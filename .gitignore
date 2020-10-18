@@ -1,4 +1,5 @@
 .DS_Store
+/Lectures/
 **/*.tgz
 **/.idea/
 **/*.iml

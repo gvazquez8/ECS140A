@@ -239,7 +239,7 @@ public class Scanner {
                 else if (isOperator(c) && !isNumber(peeked)) { // Ex: -Fort => - , Fort
                     break;
                 }
-                else if (isIdentifier(builder.toString()) && (isOperator(peeked) || !isIdentifier(""+peeked))) { // hello) => hello, )
+                else if (isIdentifier(builder.toString()) && (isOperator(peeked) || (!isIdentifier(""+peeked) && !isNumber(peeked)))) { // hello) => hello, )
                     break;
                 }
                 else if (!isValidCharacter(c) && builder.length() == 1) { // Ex: #$4 => # , $ , 4
@@ -277,7 +277,7 @@ public class Scanner {
 
     }
 
-    private void printToken(Token MyToken) {
+    public void printToken(Token MyToken) {
         System.out.println("@   "+MyToken.getLineNumber()+",   "+MyToken.getCharPosition()+"\t"+MyToken.getType()+"\t\""+MyToken.getText()+"\"");
     }
 

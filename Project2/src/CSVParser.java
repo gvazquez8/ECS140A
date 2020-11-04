@@ -135,7 +135,7 @@ public class CSVParser {
             if (nextCharPeeked == NEWLINE) { reachEndOfRow = true; }
             if (!reachEndOfRow) {
                 columnValue = getNextColumnValue();
-                nextRow.put(headers.get(i), columnValue.isEmpty() ? null : columnValue);
+                nextRow.put(headers.get(i), columnValue.isEmpty() ? "null" : columnValue);
             } else {
                 nextRow.put(headers.get(i), null);
             }

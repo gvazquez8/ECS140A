@@ -1,0 +1,19 @@
+# 3) Find all automakers that sell at least one vehicle that msrp less than $27,000 and at least one vehicle greater than $55,000.
+# The final rule head should be Answer(maker).
+
+# Get all vehicles on the market
+Vehicles(model, msrp) := Car(model,_,_,_,_,_,msrp)
+Vehicles(model, msrp) := Pickup(model,_,_,_,_,_,msrp)
+Vehicles(model, msrp) := EV(model,_,_,_,msrp)
+
+# Attach the maker to the model
+MarketVehicles(maker,model,msrp) := Product(maker,mod,_) AND Vehicles(model,msrp) AND mod = model
+
+# Get the expensive vehicles
+Expensive(maker) := MarketVehicles(maker,_,msrp) AND msrp < 27000
+
+# Get the cheap vehicles
+Cheap(maker) := MarketVehicles(maker,_,msrp) AND msrp > 55000
+
+# Get the maker that sells cheap and expensive vehicles.
+Answer(maker) := Expensive(maker) AND Cheap(maker)

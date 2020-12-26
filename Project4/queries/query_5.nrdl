@@ -1,0 +1,10 @@
+Product(maker, model, year)
+Car(model, city, highway, style, passengers, trunk, msrp)
+Pickup(model, city, highway, passengers, cargo, towing, msrp)
+EV(model, range, battery, passengers, msrp)
+
+# 5) Find the automaker(s) of the highest combined fuel economy (55% city, 45% highway) of conventional vehicles (cars and pickups).
+# The final rule head should be Answer(maker).
+
+CarMakers(maker,model,city,highway) := Product(maker,_,_) AND Car(model,city,highway,_,_,_,_)
+PickupMakers(maker,model,city,highway) := Product(maker,_,_) AND Pickup(model,city,highway,_,_,_,_)

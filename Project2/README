@@ -6,6 +6,12 @@ By Gabriel Vazquez
 
 --- Notes ---
 
-
+Hyperlinking in html has a few errors
 
 --- References ---
+
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+https://www.w3schools.com/java/java_arraylist.asp
+https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html
+https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html

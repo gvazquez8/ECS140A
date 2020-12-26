@@ -1,0 +1,1 @@
+Answer(model) := Car(model,_,h,_,_,_,_) AND h < 35

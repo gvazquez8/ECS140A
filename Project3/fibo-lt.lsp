@@ -1,0 +1,11 @@
+(defun fibo-lt (n)
+    (cond ( (< n 0) '() )
+          ( t (reverse (forwardFib n '(1 0) ) ) )
+    )
+)
+
+(defun forwardFib (n fibs)
+    (cond ( (>= (car fibs) n) (cdr fibs) )
+          ( t (forwardFib n (cons (+ (car fibs) (car (cdr fibs) ) ) fibs ) ) )
+    )
+)

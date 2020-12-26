@@ -1,0 +1,15 @@
+--- ECS 140A Project 4 ---
+By: Gabriel Vazquez
+
+No multithreaded supported.
+Some queries are empty.
+
+Resources:
+https://docs.oracle.com/javase/7/docs/api/java/util/HashSet.html
+https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html
+https://docs.oracle.com/javase/7/docs/api/java/lang/Double.html
+https://stackoverflow.com/questions/8896758/initial-size-for-the-arraylist
+https://stackoverflow.com/questions/7537361/copying-sets-java
+https://www.geeksforgeeks.org/hashset-contains-method-in-java/
+https://docs.oracle.com/javase/8/docs/api/java/util/AbstractList.html#equals-java.lang.Object-
+https://en.wikipedia.org/wiki/Relational_algebra#Natural_join_(⋈)

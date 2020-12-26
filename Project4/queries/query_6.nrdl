@@ -1,0 +1,9 @@
+Product(maker, model, year)
+Car(model, city, highway, style, passengers, trunk, msrp)
+Pickup(model, city, highway, passengers, cargo, towing, msrp)
+EV(model, range, battery, passengers, msrp)
+
+# 6) Find the vehicle model with the highest miles per gallon gasoline equivalent (MPGGE).
+# For this problem assume combined fuel economy formula from above, and that a gallon of gasoline is equivalent to 33.1kWh.
+# The final rule head should be Answer(model).
+

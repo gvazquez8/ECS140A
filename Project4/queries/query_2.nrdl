@@ -1,0 +1,1 @@
+Answer(model) := Pickup(model,_,h,_,c,_,_) AND h < 25 AND c >= 75
